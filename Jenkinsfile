@@ -7,8 +7,8 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm install'
-                tsc src/main.tsx
-                tsc App.tsx
+                sh 'npx tsc'
+                // tsc App.tsx
             }
         }
         stage('Test') {
