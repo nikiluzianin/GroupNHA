@@ -11,6 +11,7 @@ function App() {
       <div>
         <p>I added stuff here</p>
         <p>Hello I am part of the team also! / Athina </p>
+        <p>Suprpirsingly, I added a bit more stuff and it works (??)</p>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
